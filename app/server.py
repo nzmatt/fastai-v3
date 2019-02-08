@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://www.dropbox.com/s/iqm96ga0p41yxk2/renoClassifier.pkl?dl=1'
+export_file_url = 'https://www.dropbox.com/s/7xndjstjsdwd8h5/renoClassifier.pkl?dl=1'
 export_file_name = 'renoClassifier.pkl'
 
 classes = ['new', 'old']
