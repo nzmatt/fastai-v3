@@ -8,10 +8,10 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://www.dropbox.com/s/7xndjstjsdwd8h5/renoClassifier.pkl?dl=1'
-export_file_name = 'renoClassifier.pkl'
+export_file_url = 'https://www.dropbox.com/s/4i79vdgxoo3k4tp/export.pkl?dl=1'
+export_file_name = 'export.pkl'
 
-classes = ['new', 'old']
+classes = ['hammerhead', 'greatwhite', 'snapper', 'trout']
 path = Path(__file__).parent
 
 app = Starlette()
